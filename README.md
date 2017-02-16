@@ -3,15 +3,14 @@ This project is an Android skeleton to build a simple bookstore with some weird 
 Your task is to complete the application with the requirements specified below.
 
 ## Task 1 - UI imlementation
-Create Activity classes accordingly based on the screen designs provided below:
-
-- [Splash](docs/files/splash.md)
-- [Login](docs/files/login.md)
-- [Register](docs/files/register.md)
-- [Main](docs/files/main.md)
-- [Authors](docs/files/authors.md)
-- [Books](docs/files/books.md)
-- [General](docs/files/general.md)
+- Create Activity classes accordingly based on the screen designs provided below:
+    - [Splash](docs/files/splash.md)
+    - [Login](docs/files/login.md)
+    - [Register](docs/files/register.md)
+    - [Main](docs/files/main.md)
+    - [Authors](docs/files/authors.md)
+    - [Books](docs/files/books.md)
+    - [General](docs/files/general.md)
 
 
 ## Task 2 - API Integration
@@ -214,13 +213,11 @@ The app must be able to detect the device's GPS location change.
 When location changes, get the current location coordinates (lat, long) and show in a toast.
 
 ### 2. Heartbeat in foreground
-When the app is in the foreground, do the following:
-
-- Start a Timer or Scheduler and use it to send the current location coordinates to the server every 10 seconds.
-- Stop any background service (Refer to the task below)
+- When the app is in the foreground, do the following:
+    - Start a Timer or Scheduler and use it to send the current location coordinates to the server every 10 seconds.
+    - Stop any background service (Refer to the task below)
 
 ### 3. Heartbeat in background
-When app is in background, do the following:
-
-- Start an Android Service to send current location coordinates to the server every 10 seconds.
-- Stop any Timer or Scheduler that was previously created (Refer to the task above).
+- When app is in background, do the following:
+    - Start an Android Service to send current location coordinates to the server every 10 seconds.
+    - Stop any Timer or Scheduler that was previously created (Refer to the task above).
