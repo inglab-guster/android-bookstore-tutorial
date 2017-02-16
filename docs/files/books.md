@@ -1,6 +1,7 @@
 [Home](../../README.md)
 
 # Book Screen
+
 - Use ``RecyclerView`` instead of ``ListView``
 - The list must be sorted alphabetically
 - Clicking the list item will proceed to the book's detail screen

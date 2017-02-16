@@ -1,6 +1,7 @@
 [Home](../../README.md)
 
 # Author Screen
+
 - Use ``RecyclerView`` instead of ``ListView``
 - Group the author list by the first alphabet of the author's name
 - The list must be sorted alphabetically
