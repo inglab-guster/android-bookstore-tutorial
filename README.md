@@ -5,6 +5,7 @@ Your task is to complete the application with the requirements specified below.
 ## Task 0 - Git Flow Practice
 This application should be completed in the following manner:
 - Start a Git feature branch for each module below with the provided branch name:
+  
   - [Splash](docs/files/splash.md), [Login](docs/files/login.md), [Register](docs/files/register.md)
     - branch name: ``feature/entry``
   - [Main](docs/files/main.md)
