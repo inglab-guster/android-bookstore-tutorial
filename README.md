@@ -18,6 +18,7 @@ This application should be completed in the following manner:
     - branch name: ``feature/general``
   - [Task 3](#task3)
     - branch name: ``feature/task3``
+
 - Finish one module (``feature`` branch) first before starting the next module, the ``feature`` branch should be merged back to the ``develop`` branch
 - Once all tasks are completed, do a ``git release`` process. The ``master`` branch should have the latest codebase along with a ``tag`` labeled as ``v1.0``
 
@@ -242,4 +243,4 @@ When location changes, get the current location coordinates (lat, long) and show
     - Stop any Timer or Scheduler that was previously created (Refer to the task above).
 
 ## (Optional) Task 4 - Automated functional/UI Testing
-- Writing automated testing for the application. You are free to use any 3rd-party libraries such as ``UI Automator``, ``Espresso``, etc. 
+- Writing automated testing for the application. You are free to use any 3rd-party libraries such as ``UI Automator``, ``Espresso``, etc.
