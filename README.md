@@ -2,6 +2,24 @@
 This project is an Android skeleton to build a simple bookstore with some weird functionality.
 Your task is to complete the application with the requirements specified below.
 
+## Task 0 - Git Flow Practice
+This application should be completed in the following manner:
+- Start a Git feature branch for each module below with the provided branch name:
+  - [Splash](docs/files/splash.md), [Login](docs/files/login.md), [Register](docs/files/register.md)
+    - branch name: ``feature/entry``
+  - [Main](docs/files/main.md)
+    - branch name: ``feature/main``
+  - [Authors](docs/files/authors.md)
+    - branch name: ``feature/authors``
+  - [Books](docs/files/books.md)
+    - branch name: ``feature/books``
+  - [General](docs/files/general.md)
+    - branch name: ``feature/general``
+  - [Task 3](#task3)
+    - branch name: ``feature/task3``
+- Finish one module (``feature`` branch) first before starting the next module, the ``feature`` branch should be merged back to the ``develop`` branch
+- Once all tasks are completed, do a ``git release`` process. The ``master`` branch should have the latest codebase along with a ``tag`` labeled as ``v1.0``
+
 ## Task 1 - UI imlementation
 - Create Activity classes accordingly based on the screen designs provided below:
     - [Splash](docs/files/splash.md)
@@ -206,7 +224,7 @@ Now, you are going to get data to display in your application with the following
 
 
 
-## Task 3 - Implement weird features
+## <a name="task3"></a>Task 3 - Implement weird features
 
 ### 1. Location change detection
 The app must be able to detect the device's GPS location change.
@@ -221,3 +239,6 @@ When location changes, get the current location coordinates (lat, long) and show
 - When app is in background, do the following:
     - Start an Android Service to send current location coordinates to the server every 10 seconds.
     - Stop any Timer or Scheduler that was previously created (Refer to the task above).
+
+## (Optional) Task 4 - Automated functional/UI Testing
+- Writing automated testing for the application. You are free to use any 3rd-party libraries such as ``UI Automator``, ``Espresso``, etc. 
