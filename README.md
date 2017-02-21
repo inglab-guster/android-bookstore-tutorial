@@ -16,7 +16,7 @@ This application should be completed in the following manner:
     - branch name: ``feature/books``
   - [General](docs/files/general.md)
     - branch name: ``feature/general``
-  - [Task 3](#task3)
+  - Task 3
     - branch name: ``feature/task3``
 
 - Finish one module (``feature`` branch) first before starting the next module, the ``feature`` branch should be merged back to the ``develop`` branch
@@ -220,13 +220,13 @@ Now, you are going to get data to display in your application with the following
 ```json
 {
     "lat": 763.656677037990,
-    "lng": 7.67555576262133"
+    "lng": 7.67555576262133
 }
 ```
 
 
 
-## <a name="task3"></a>Task 3 - Implement weird features
+## Task 3 - Implement weird features
 
 ### 1. Location change detection
 The app must be able to detect the device's GPS location change.
