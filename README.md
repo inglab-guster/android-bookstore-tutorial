@@ -216,7 +216,7 @@ Now, you are going to get data to display in your application with the following
 
 #### Location Heartbeat
 - ``POST /api/heartbeat``
-- #### Response
+- #### Request Payload
 ```json
 {
     "lat": 763.656677037990,
