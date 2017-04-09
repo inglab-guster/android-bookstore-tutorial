@@ -39,6 +39,7 @@ Now, you are going to get data to display in your application with the following
 ### Standard Rules
 - All responses is in ``JSON`` format
 - Use standard HTTP status code to determine if a response is successful, eg ``200`` is successful
+- Set Http Header ``Content-Type`` as ``application/json``
 - Base URL: ``http://198.211.112.145:8001``
 - Example request call: ``http://198.211.112.145:8001/api/books``
 
